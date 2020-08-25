@@ -10,12 +10,15 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-        
+    
         Image("turtlerock")
+            .resizable()
+            .scaledToFit()
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: 10)
-            .frame(maxWidth: 320, maxHeight: 320)
+            .frame(maxWidth: 300, maxHeight: 300)
+        
     }
 }
 
