@@ -30,6 +30,7 @@
 		5F855E4B24F2AEAC002F60F6 /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E3E24F2AEAC002F60F6 /* lakemcdonald.jpg */; };
 		5F855E4C24F2AEAC002F60F6 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E3F24F2AEAC002F60F6 /* turtlerock.jpg */; };
 		5F855E4D24F2AEAC002F60F6 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E4024F2AEAC002F60F6 /* chilkoottrail.jpg */; };
+		5F8D768B24F55A3C003123BB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D768A24F55A3C003123BB /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		5F855E3E24F2AEAC002F60F6 /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
 		5F855E3F24F2AEAC002F60F6 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		5F855E4024F2AEAC002F60F6 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
+		5F8D768A24F55A3C003123BB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				5F7FABC224F3FAD0009A0EFB /* CircleImage.swift */,
+				5F8D768A24F55A3C003123BB /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F855DFF24F2ACC3002F60F6 /* AppDelegate.swift in Sources */,
+				5F8D768B24F55A3C003123BB /* MapView.swift in Sources */,
 				5F855E0124F2ACC3002F60F6 /* SceneDelegate.swift in Sources */,
 				5F855E0624F2ACC3002F60F6 /* ContentView.swift in Sources */,
 				5F855E0424F2ACC3002F60F6 /* QList_iPhone.xcdatamodeld in Sources */,
