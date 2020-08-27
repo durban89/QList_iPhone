@@ -30,6 +30,7 @@
 		5F855E4B24F2AEAC002F60F6 /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E3E24F2AEAC002F60F6 /* lakemcdonald.jpg */; };
 		5F855E4C24F2AEAC002F60F6 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E3F24F2AEAC002F60F6 /* turtlerock.jpg */; };
 		5F855E4D24F2AEAC002F60F6 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E4024F2AEAC002F60F6 /* chilkoottrail.jpg */; };
+		5F8A228524F8021200763E5F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A228424F8021200763E5F /* LandmarkList.swift */; };
 		5F8D768B24F55A3C003123BB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D768A24F55A3C003123BB /* MapView.swift */; };
 		5FC84BAB24F6A9CD0066BDCC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC84BAA24F6A9CD0066BDCC /* Landmark.swift */; };
 		5FC84BAD24F6AB150066BDCC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC84BAC24F6AB150066BDCC /* Data.swift */; };
@@ -83,6 +84,7 @@
 		5F855E3E24F2AEAC002F60F6 /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
 		5F855E3F24F2AEAC002F60F6 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		5F855E4024F2AEAC002F60F6 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
+		5F8A228424F8021200763E5F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		5F8D768A24F55A3C003123BB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		5FC84BAA24F6A9CD0066BDCC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		5FC84BAC24F6AB150066BDCC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				5F855E0224F2ACC3002F60F6 /* QList_iPhone.xcdatamodeld */,
 				5F855E0924F2ACC6002F60F6 /* Preview Content */,
 				5FC84BAE24F7FEA20066BDCC /* LandmarkRow.swift */,
+				5F8A228424F8021200763E5F /* LandmarkList.swift */,
 			);
 			path = QList_iPhone;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				5F7FABC324F3FAD0009A0EFB /* CircleImage.swift in Sources */,
 				5FC84BAD24F6AB150066BDCC /* Data.swift in Sources */,
 				5FC84BAF24F7FEA20066BDCC /* LandmarkRow.swift in Sources */,
+				5F8A228524F8021200763E5F /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
