@@ -18,7 +18,7 @@ struct Landmark: Hashable, Codable {
     var category: Category
     
     fileprivate var imageName: String
-    fileprivate var coordinate: Coordinate
+    fileprivate var coordinates: Coordinates
     
     enum Category: String, CaseIterable, Hashable, Codable {
         case featured = "Featured"
@@ -28,7 +28,7 @@ struct Landmark: Hashable, Codable {
 }
 
 
-struct Coordinate: Hashable, Codable {
+struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
 }
