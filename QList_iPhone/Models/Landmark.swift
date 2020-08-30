@@ -20,6 +20,13 @@ struct Landmark: Hashable, Codable, Identifiable {
     fileprivate var imageName: String
     fileprivate var coordinates: Coordinates
     
+    var locationCoordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(
+            latitude: coordinates.latitude,
+            longitude: coordinates.longitude
+        )
+    }
+    
     enum Category: String, CaseIterable, Hashable, Codable {
         case featured = "Featured"
         case lakes = "Lakes"
