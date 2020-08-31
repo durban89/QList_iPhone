@@ -16,6 +16,10 @@ struct LandmarkRow: View {
             landmark.image.resizable().frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
+            if landmark.isFavorite {
+                Text("F")
+                    .foregroundColor(Color.red)
+            }
         }
     }
 }
