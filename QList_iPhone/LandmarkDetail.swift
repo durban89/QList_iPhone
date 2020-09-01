@@ -29,8 +29,22 @@ struct LandmarkDetail: View {
                 
             
             VStack(alignment: .leading) {
-                Text(landmark.name)
-                    .font(.title)
+                HStack {
+                    Text(landmark.name)
+                        .font(.title)
+                    
+                    Button(action: {
+                        self.userData.landmarks[self.landmarkIndex].isFavorite.toggle()
+                    }){
+                        if self.userData.landmarks[landmarkIndex].isFavorite {
+                            Text("F")
+                                .foregroundColor(Color.yellow)
+                        } else {
+                            Text("E")
+                                .foregroundColor(Color.gray)
+                        }
+                    }
+                }
                 
                 HStack {
                     Text(landmark.park)
