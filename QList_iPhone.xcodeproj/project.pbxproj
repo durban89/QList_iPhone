@@ -40,6 +40,7 @@
 		5FC84BAF24F7FEA20066BDCC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC84BAE24F7FEA20066BDCC /* LandmarkRow.swift */; };
 		5FCBFBDA24FFE1CD002CEA94 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBFBD924FFE1CD002CEA94 /* BadgeBackground.swift */; };
 		5FCBFBDC24FFE261002CEA94 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBFBDB24FFE261002CEA94 /* BadgeSymbol.swift */; };
+		5FE2681725028FA300D193C0 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2681625028FA300D193C0 /* RotatedBadgeSymbol.swift */; };
 		5FEB970524F9E4D1002ABFEB /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB970424F9E4D1002ABFEB /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,7 @@
 		5FC84BAE24F7FEA20066BDCC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		5FCBFBD924FFE1CD002CEA94 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		5FCBFBDB24FFE261002CEA94 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		5FE2681625028FA300D193C0 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		5FEB970424F9E4D1002ABFEB /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -204,6 +206,7 @@
 				5F0F6CB024FE936500FE9976 /* HexagonParameters.swift */,
 				5FCBFBD924FFE1CD002CEA94 /* BadgeBackground.swift */,
 				5FCBFBDB24FFE261002CEA94 /* BadgeSymbol.swift */,
+				5FE2681625028FA300D193C0 /* RotatedBadgeSymbol.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				5F855DFF24F2ACC3002F60F6 /* AppDelegate.swift in Sources */,
 				5F8D768B24F55A3C003123BB /* MapView.swift in Sources */,
 				5F855E0124F2ACC3002F60F6 /* SceneDelegate.swift in Sources */,
+				5FE2681725028FA300D193C0 /* RotatedBadgeSymbol.swift in Sources */,
 				5FCBFBDC24FFE261002CEA94 /* BadgeSymbol.swift in Sources */,
 				5F855E0624F2ACC3002F60F6 /* ContentView.swift in Sources */,
 				5F855E0424F2ACC3002F60F6 /* QList_iPhone.xcdatamodeld in Sources */,
