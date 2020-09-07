@@ -9,13 +9,21 @@
 import SwiftUI
 
 struct HikeView: View {
+    var hike: Hike
+    @State private var showDetail = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                HikeGraph(hike: hike, path: \.elevation)
+                    .frame(width: 50, height: 30)
+            }
+        }
     }
 }
 
 struct HikeView_Previews: PreviewProvider {
     static var previews: some View {
-        HikeView()
+        HikeView(hike: hikeData[0])
     }
 }
