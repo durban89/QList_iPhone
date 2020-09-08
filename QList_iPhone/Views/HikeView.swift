@@ -17,6 +17,19 @@ struct HikeView: View {
             HStack {
                 HikeGraph(hike: hike, path: \.elevation)
                     .frame(width: 50, height: 30)
+                
+                VStack(alignment: .leading) {
+                    Text(hike.name)
+                    Text(hike.distanceText)
+                }
+                
+                Spacer()
+                
+                Button(action: {
+                    self.showDetail.toggle()
+                }) {
+                    Image(systemName: "chevron.right.circle")
+                }
             }
         }
     }
