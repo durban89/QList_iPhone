@@ -48,6 +48,7 @@
 		5FCBFBDC24FFE261002CEA94 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBFBDB24FFE261002CEA94 /* BadgeSymbol.swift */; };
 		5FE2681725028FA300D193C0 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2681625028FA300D193C0 /* RotatedBadgeSymbol.swift */; };
 		5FEB970524F9E4D1002ABFEB /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB970424F9E4D1002ABFEB /* LandmarkDetail.swift */; };
+		5FEDAD2D2509168000AA7264 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDAD2C2509168000AA7264 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		5FCBFBDB24FFE261002CEA94 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		5FE2681625028FA300D193C0 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		5FEB970424F9E4D1002ABFEB /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		5FEDAD2C2509168000AA7264 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				5F7C67632504DF08001FBEF6 /* HikeView.swift */,
 				5F7C676B2504E511001FBEF6 /* HikeGraph.swift */,
 				5F7C676D2504E99A001FBEF6 /* GraphCapsule.swift */,
+				5FEDAD2C2509168000AA7264 /* HikeDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				5F8D768B24F55A3C003123BB /* MapView.swift in Sources */,
 				5F855E0124F2ACC3002F60F6 /* SceneDelegate.swift in Sources */,
 				5FE2681725028FA300D193C0 /* RotatedBadgeSymbol.swift in Sources */,
+				5FEDAD2D2509168000AA7264 /* HikeDetail.swift in Sources */,
 				5FCBFBDC24FFE261002CEA94 /* BadgeSymbol.swift in Sources */,
 				5F855E0624F2ACC3002F60F6 /* ContentView.swift in Sources */,
 				5F855E0424F2ACC3002F60F6 /* QList_iPhone.xcdatamodeld in Sources */,
