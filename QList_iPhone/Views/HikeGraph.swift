@@ -24,7 +24,7 @@ func magnitude(of range: Range<Double>) -> Double {
 extension Animation {
     static func ripple(index: Int) -> Animation {
         Animation.spring(dampingFraction: 0.5)
-        .speed(2)
+            .speed(2)
             .delay(0.03 * Double(index))
     }
 }
@@ -49,13 +49,14 @@ struct HikeGraph: View {
     var body: some View {
         let data = hike.observations
         let overallRange = rangeOfRanges(data.lazy.map { $0[keyPath: self.path] })
-//        let overallRange = rangeOfRanges()
+        let maxMagnitude = data.map { magnitude(of: $0[keyPath: path]) }.max()!
+        let heightRatio = (1 - CGFloat(maxMagnitude / magnitude(of: overallRange))) / 2
         
         return GeometryReader { geometry in
             HStack(alignment: .bottom, spacing: geometry.size.width / 120){
                 ForEach(data.indices) { index in
                     GraphCapsule(
-                        index:index,
+                        index: index,
                         height: geometry.size.height,
                         range: data[index][keyPath: self.path],
                         overallRange: overallRange
@@ -64,6 +65,7 @@ struct HikeGraph: View {
                         .transition(.slide)
                         .animation(.ripple(index: index))
                 }
+                .offset(x:0, y: geometry.size.height * heightRatio)
             }
         }
     }
@@ -73,7 +75,11 @@ struct HikeGraph_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             HikeGraph(hike: hikeData[0], path: \.elevation)
-            .frame(height: 200)
+                .frame(height: 200)
+            HikeGraph(hike: hikeData[0], path: \.heartRate)
+                .frame(height: 200)
+            HikeGraph(hike: hikeData[0], path: \.pace)
+                .frame(height: 200)
         }
     }
 }
