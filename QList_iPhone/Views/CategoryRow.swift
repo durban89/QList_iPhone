@@ -36,7 +36,7 @@ struct CategoryItem: View {
     var landmark: Landmark
     
     var body: some View {
-        VStack{
+        VStack(alignment: .leading) {
             landmark.image
                 .resizable()
                 .frame(width: 155, height: 155)
@@ -44,6 +44,7 @@ struct CategoryItem: View {
             Text(landmark.name)
                 .font(.caption)
         }
+        .padding(.leading, 15)
     }
 }
 
