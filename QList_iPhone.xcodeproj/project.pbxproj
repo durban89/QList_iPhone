@@ -12,6 +12,7 @@
 		5F3064F924FD308B00BADFE3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3064F824FD308B00BADFE3 /* UserData.swift */; };
 		5F532B772516597A00A9E0B1 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F532B762516597900A9E0B1 /* ProfileHost.swift */; };
 		5F532B7925165D9000A9E0B1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F532B7825165D9000A9E0B1 /* Profile.swift */; };
+		5F63E2F62517A1F2003800E2 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E2F52517A1F2003800E2 /* ProfileSummary.swift */; };
 		5F7C67642504DF08001FBEF6 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C67632504DF08001FBEF6 /* HikeView.swift */; };
 		5F7C67662504E022001FBEF6 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C67652504E022001FBEF6 /* Hike.swift */; };
 		5F7C67692504E494001FBEF6 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F7C67672504E494001FBEF6 /* hikeData.json */; };
@@ -78,6 +79,7 @@
 		5F3064F824FD308B00BADFE3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		5F532B762516597900A9E0B1 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		5F532B7825165D9000A9E0B1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5F63E2F52517A1F2003800E2 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		5F7C67632504DF08001FBEF6 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		5F7C67652504E022001FBEF6 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		5F7C67672504E494001FBEF6 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				5F532B762516597900A9E0B1 /* ProfileHost.swift */,
+				5F63E2F52517A1F2003800E2 /* ProfileSummary.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				5FEDAD2D2509168000AA7264 /* HikeDetail.swift in Sources */,
 				5FCBFBDC24FFE261002CEA94 /* BadgeSymbol.swift in Sources */,
 				5F855E0624F2ACC3002F60F6 /* ContentView.swift in Sources */,
+				5F63E2F62517A1F2003800E2 /* ProfileSummary.swift in Sources */,
 				5F96CDAA250E658500F95E22 /* CategoryRow.swift in Sources */,
 				5F855E0424F2ACC3002F60F6 /* QList_iPhone.xcdatamodeld in Sources */,
 				5F3064F924FD308B00BADFE3 /* UserData.swift in Sources */,
