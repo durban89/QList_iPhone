@@ -45,6 +45,12 @@ struct ProfileSummary: View {
                 }
             }
             .frame(height: 140)
+            
+            VStack(alignment: .leading) {
+                Text("Recent Hikes")
+                
+                HikeView(hike: hikeData[0])
+            }
         }
     }
 }
