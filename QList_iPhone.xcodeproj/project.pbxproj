@@ -44,6 +44,7 @@
 		5F855E4C24F2AEAC002F60F6 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E3F24F2AEAC002F60F6 /* turtlerock.jpg */; };
 		5F855E4D24F2AEAC002F60F6 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F855E4024F2AEAC002F60F6 /* chilkoottrail.jpg */; };
 		5F8A228524F8021200763E5F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A228424F8021200763E5F /* LandmarkList.swift */; };
+		5F8AAF462520D48A000EFA60 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AAF452520D48A000EFA60 /* ProfileEditor.swift */; };
 		5F8D768B24F55A3C003123BB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D768A24F55A3C003123BB /* MapView.swift */; };
 		5F96CDA8250E5AB700F95E22 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96CDA7250E5AB700F95E22 /* CategoryHome.swift */; };
 		5F96CDAA250E658500F95E22 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96CDA9250E658500F95E22 /* CategoryRow.swift */; };
@@ -118,6 +119,7 @@
 		5F855E3F24F2AEAC002F60F6 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		5F855E4024F2AEAC002F60F6 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		5F8A228424F8021200763E5F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		5F8AAF452520D48A000EFA60 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		5F8D768A24F55A3C003123BB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		5F96CDA7250E5AB700F95E22 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		5F96CDA9250E658500F95E22 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				5F532B762516597900A9E0B1 /* ProfileHost.swift */,
 				5F63E2F52517A1F2003800E2 /* ProfileSummary.swift */,
+				5F8AAF452520D48A000EFA60 /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				5FCBFBDC24FFE261002CEA94 /* BadgeSymbol.swift in Sources */,
 				5F855E0624F2ACC3002F60F6 /* ContentView.swift in Sources */,
 				5F63E2F62517A1F2003800E2 /* ProfileSummary.swift in Sources */,
+				5F8AAF462520D48A000EFA60 /* ProfileEditor.swift in Sources */,
 				5F96CDAA250E658500F95E22 /* CategoryRow.swift in Sources */,
 				5F855E0424F2ACC3002F60F6 /* QList_iPhone.xcdatamodeld in Sources */,
 				5F3064F924FD308B00BADFE3 /* UserData.swift in Sources */,
