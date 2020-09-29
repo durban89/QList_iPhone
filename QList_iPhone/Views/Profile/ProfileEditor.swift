@@ -24,7 +24,7 @@ struct ProfileEditor: View {
                 Text("Enable Notifications")
             }
             
-            VStack {
+            VStack(alignment: .leading, spacing: 20) {
                 Text("Seasonal Photo").bold()
                 
                 Picker("Seasonal Photo", selection: $profile.seasonalPhoto) {
@@ -32,7 +32,9 @@ struct ProfileEditor: View {
                         Text(season.rawValue).tag(season)
                     }
                 }
+                .pickerStyle(SegmentedPickerStyle())
             }
+            .padding(.top)
         }
     }
 }
