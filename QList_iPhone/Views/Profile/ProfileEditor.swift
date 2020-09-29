@@ -24,6 +24,15 @@ struct ProfileEditor: View {
                 Text("Enable Notifications")
             }
             
+            VStack {
+                Text("Seasonal Photo").bold()
+                
+                Picker("Seasonal Photo", selection: $profile.seasonalPhoto) {
+                    ForEach(Profile.Season.allCases, id: \.self) { season in
+                        Text(season.rawValue).tag(season)
+                    }
+                }
+            }
         }
     }
 }
