@@ -10,6 +10,7 @@ import Foundation
 import SwiftUI
 
 let landmarkData: [Landmark] = load("landmarkData.json")
+let features = landmarkData.filter { $0.isFeatured }
 let hikeData: [Hike] = load("hikeData.json")
 
 func load<T: Decodable> (_ name: String) -> T {
