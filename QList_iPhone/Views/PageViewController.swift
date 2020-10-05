@@ -12,6 +12,10 @@ import UIKit
 struct PageViewController: UIViewControllerRepresentable {
     var controllers: [UIViewController]
     
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
     func makeUIViewController(context: Context) -> UIPageViewController {
         let pageViewController = UIPageViewController(
             transitionStyle: .scroll, navigationOrientation: .horizontal
@@ -22,5 +26,13 @@ struct PageViewController: UIViewControllerRepresentable {
     
     func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
         pageViewController.setViewControllers([controllers[0]], direction: .forward, animated: true)
+    }
+    
+    class Coordinator: NSObject {
+        var parent: PageViewController
+        
+        init(_ pageViewController: PageViewController) {
+            self.parent = pageViewController
+        }
     }
 }

@@ -41,6 +41,7 @@ struct PageView<Page: View>: View {
 
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
-        PageView(features.map { FeatureCard })
+        PageView(features.map { FeatureCard(landmark: $0) })
+            .aspectRatio(3 / 2, contentMode: .fit)
     }
 }
