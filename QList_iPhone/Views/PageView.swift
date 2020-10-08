@@ -37,13 +37,13 @@ struct PageView<Page: View>: View {
     
     var body: some View {
         PageViewController(controllers: viewControllers, currentPage: $currentPage)
+        Text("Current Page \(currentPage)")
     }
 }
 
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
         PageView(features.map { FeatureCard(landmark: $0) })
-            .environmentObject(UserData())
             .aspectRatio(3 / 2, contentMode: .fit)
             
     }
