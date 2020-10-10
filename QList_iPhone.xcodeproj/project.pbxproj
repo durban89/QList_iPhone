@@ -15,6 +15,11 @@
 		5F532B7925165D9000A9E0B1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F532B7825165D9000A9E0B1 /* Profile.swift */; };
 		5F63E2F62517A1F2003800E2 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E2F52517A1F2003800E2 /* ProfileSummary.swift */; };
 		5F72730C252A0CB6006A0B29 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72730B252A0CB6006A0B29 /* PageView.swift */; };
+		5F769120252F5B3200909BC2 /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F76911F252F5B3100909BC2 /* TextOverlay.swift */; };
+		5F769125252F5BA700909BC2 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F769124252F5BA700909BC2 /* FeatureCard.swift */; };
+		5F76912C252F5CBA00909BC2 /* stmarylake_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F769129252F5CBA00909BC2 /* stmarylake_feature.jpg */; };
+		5F76912D252F5CBB00909BC2 /* charleyrivers_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F76912A252F5CBA00909BC2 /* charleyrivers_feature.jpg */; };
+		5F76912E252F5CBB00909BC2 /* turtlerock_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F76912B252F5CBA00909BC2 /* turtlerock_feature.jpg */; };
 		5F7C67642504DF08001FBEF6 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C67632504DF08001FBEF6 /* HikeView.swift */; };
 		5F7C67662504E022001FBEF6 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C67652504E022001FBEF6 /* Hike.swift */; };
 		5F7C67692504E494001FBEF6 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F7C67672504E494001FBEF6 /* hikeData.json */; };
@@ -86,6 +91,11 @@
 		5F532B7825165D9000A9E0B1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		5F63E2F52517A1F2003800E2 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		5F72730B252A0CB6006A0B29 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		5F76911F252F5B3100909BC2 /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
+		5F769124252F5BA700909BC2 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		5F769129252F5CBA00909BC2 /* stmarylake_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake_feature.jpg; sourceTree = "<group>"; };
+		5F76912A252F5CBA00909BC2 /* charleyrivers_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers_feature.jpg; sourceTree = "<group>"; };
+		5F76912B252F5CBA00909BC2 /* turtlerock_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock_feature.jpg; sourceTree = "<group>"; };
 		5F7C67632504DF08001FBEF6 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		5F7C67652504E022001FBEF6 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		5F7C67672504E494001FBEF6 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
@@ -259,6 +269,8 @@
 				5F52046E251A4142006403D1 /* HikeBadge.swift */,
 				5FBFFE282528D86500C75AF7 /* PageViewController.swift */,
 				5F72730B252A0CB6006A0B29 /* PageView.swift */,
+				5F76911F252F5B3100909BC2 /* TextOverlay.swift */,
+				5F769124252F5BA700909BC2 /* FeatureCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +290,9 @@
 		5F855E3324F2AE25002F60F6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5F76912A252F5CBA00909BC2 /* charleyrivers_feature.jpg */,
+				5F769129252F5CBA00909BC2 /* stmarylake_feature.jpg */,
+				5F76912B252F5CBA00909BC2 /* turtlerock_feature.jpg */,
 				5F7C67682504E494001FBEF6 /* charleyrivers.jpg */,
 				5F7C67672504E494001FBEF6 /* hikeData.json */,
 				5F855E4024F2AEAC002F60F6 /* chilkoottrail.jpg */,
@@ -409,9 +424,12 @@
 				5F855E4A24F2AEAC002F60F6 /* umbagog.jpg in Resources */,
 				5F855E0E24F2ACC6002F60F6 /* LaunchScreen.storyboard in Resources */,
 				5F855E4724F2AEAC002F60F6 /* landmarkData.json in Resources */,
+				5F76912E252F5CBB00909BC2 /* turtlerock_feature.jpg in Resources */,
 				5F855E0B24F2ACC6002F60F6 /* Preview Assets.xcassets in Resources */,
 				5F855E4624F2AEAC002F60F6 /* yukon_charleyrivers.jpg in Resources */,
+				5F76912D252F5CBB00909BC2 /* charleyrivers_feature.jpg in Resources */,
 				5F855E4124F2AEAC002F60F6 /* twinlake.jpg in Resources */,
+				5F76912C252F5CBA00909BC2 /* stmarylake_feature.jpg in Resources */,
 				5F855E4D24F2AEAC002F60F6 /* chilkoottrail.jpg in Resources */,
 				5F855E4424F2AEAC002F60F6 /* icybay.jpg in Resources */,
 				5F855E4524F2AEAC002F60F6 /* chincoteague.jpg in Resources */,
@@ -453,6 +471,7 @@
 				5F855E0124F2ACC3002F60F6 /* SceneDelegate.swift in Sources */,
 				5FE2681725028FA300D193C0 /* RotatedBadgeSymbol.swift in Sources */,
 				5FEDAD2D2509168000AA7264 /* HikeDetail.swift in Sources */,
+				5F769125252F5BA700909BC2 /* FeatureCard.swift in Sources */,
 				5FCBFBDC24FFE261002CEA94 /* BadgeSymbol.swift in Sources */,
 				5F855E0624F2ACC3002F60F6 /* ContentView.swift in Sources */,
 				5F63E2F62517A1F2003800E2 /* ProfileSummary.swift in Sources */,
@@ -462,6 +481,7 @@
 				5F3064F924FD308B00BADFE3 /* UserData.swift in Sources */,
 				5F532B772516597A00A9E0B1 /* ProfileHost.swift in Sources */,
 				5F72730C252A0CB6006A0B29 /* PageView.swift in Sources */,
+				5F769120252F5B3200909BC2 /* TextOverlay.swift in Sources */,
 				5F7FABC324F3FAD0009A0EFB /* CircleImage.swift in Sources */,
 				5FC84BAD24F6AB150066BDCC /* Data.swift in Sources */,
 				5F7C676C2504E511001FBEF6 /* HikeGraph.swift in Sources */,
